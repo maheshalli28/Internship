@@ -8,7 +8,7 @@ def get_base64_of_image(image_path):
         return base64.b64encode(img_file.read()).decode()
 
 # Provide correct local path of the image
-image_path = r"C:\Users\mahes\OneDrive\Desktop\Intership\Implementation-of-Personal-Fitness-Tracker-using-Python-main\fitness.webp"
+image_path = r"fitness.webp"
 base64_image = get_base64_of_image(image_path)
 
 # Custom CSS for Background Image & Bootstrap-like Styling
@@ -73,8 +73,8 @@ page_bg_img = f'''
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Load fitness dataset
-dataset_path = r"C:\Users\mahes\OneDrive\Desktop\Intership\Implementation-of-Personal-Fitness-Tracker-using-Python-main\dataset-2.csv"
-diet_chart_path = r"C:\Users\mahes\OneDrive\Desktop\Intership\Implementation-of-Personal-Fitness-Tracker-using-Python-main\diet_dataset_2.csv"
+dataset_path = r"dataset-2.csv"
+diet_chart_path = r"diet_dataset_2.csv"
 
 try:
     df = pd.read_csv(dataset_path)
