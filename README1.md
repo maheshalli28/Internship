@@ -48,7 +48,3 @@ This project aims to **bridge the gap between fitness tracking and actionable in
 💡 *"Stay fit, track smart, and achieve your health goals!"* 💪  
 YOU CAN CHECK OUT AND GET RECOMMENDATIONS FROM THIS URL  :
 
-https://implementation-of-personal-fitness-tracker-using-python.streamlit.app/
-
----
->>>>>>> 179e840 (Initial commit)
