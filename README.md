@@ -1,2 +1,0 @@
-# Internship
-Personal fitness tracker
